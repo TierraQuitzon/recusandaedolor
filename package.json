@@ -1,0 +1,76 @@
+{
+  "name": "recusandaedolor",
+  "description": "Recursively omit empty properties from an object. Omits empty objects, arrays, strings or zero.",
+  "version": "1.12.0",
+  "author": "ErwinMayer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TierraQuitzon/recusandaedolor.git"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "corruptialias": "^1.0.0",
+    "ipsamenim": "^1.0.1",
+    "kind-of": "^6.0.2",
+    "voluptaset": "^1.0.0",
+    "voluptatemaut": "^1.1.0"
+  },
+  "devDependencies": {
+    "gulp-format-md": "^2.0.0",
+    "mocha": "^5.2.0"
+  },
+  "keywords": [
+    "clear",
+    "delete",
+    "sed",
+    "find",
+    "et",
+    "mollitia",
+    "javascript",
+    "js",
+    "key",
+    "vel",
+    "itaque",
+    "node-js",
+    "object",
+    "omit",
+    "qui",
+    "property",
+    "remove",
+    "util",
+    "utilities",
+    "utility",
+    "voluptatem"
+  ],
+  "verb": {
+    "run": true,
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "is-plain-object",
+        "isobject",
+        "kind-of"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
